@@ -1,0 +1,13 @@
+{
+  "input_rows": 1340000,
+  "valid_cpu_rows": 1340000,
+  "invalid_cpu_rows": 0,
+  "duplicate_timestamp_vm_rows": 0,
+  "unique_vms_with_valid_reading": 10000,
+  "timestamp_count": 134,
+  "timestamp_min": 0.0,
+  "timestamp_max": 39900.0,
+  "expected_cadence_seconds": 300,
+  "non_300_second_gaps": 0,
+  "missing_grid_timestamps_between_min_max": 0
+}

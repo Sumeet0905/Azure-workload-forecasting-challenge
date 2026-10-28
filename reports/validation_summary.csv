@@ -1,0 +1,7 @@
+target,model,mean_window_mae,mean_window_rmse,persistence_mean_window_mae,relative_mae_improvement_vs_persistence,normalized_mae_by_training_range,validation_origins
+active_vm_count,linear_trend_24,4.9264296346033616e-12,5.131463355249785e-12,0.0,,4.926429634603362e-16,3
+active_vm_count,moving_average_6,0.0,0.0,0.0,0.0,0.0,3
+active_vm_count,persistence,0.0,0.0,0.0,0.0,0.0,3
+aggregate_cpu_utilization,linear_trend_24,0.43387696632672473,0.4810581439544155,0.18478841716340633,-1.347966246948542,0.541979306731188,3
+aggregate_cpu_utilization,moving_average_6,0.24908035944077048,0.27902604574814177,0.18478841716340633,-0.347921927490247,0.31113981844430716,3
+aggregate_cpu_utilization,persistence,0.18478841716340633,0.21738382689756897,0.18478841716340633,0.0,0.23082925805920496,3

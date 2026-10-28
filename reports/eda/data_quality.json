@@ -1,0 +1,31 @@
+{
+  "input_rows": 1340000,
+  "valid_cpu_rows": 1340000,
+  "invalid_cpu_rows": 0,
+  "duplicate_timestamp_vm_rows": 0,
+  "unique_vms_with_valid_reading": 10000,
+  "timestamp_count": 134,
+  "timestamp_min": 0.0,
+  "timestamp_max": 39900.0,
+  "expected_cadence_seconds": 300,
+  "non_300_second_gaps": 0,
+  "missing_grid_timestamps_between_min_max": 0,
+  "metadata_rows": 10000,
+  "metadata_unique_vms": 10000,
+  "metadata_missing_cells": 0,
+  "reading_vms_without_metadata": 0,
+  "metadata_vms_without_readings": 0,
+  "metadata_columns": [
+    "vm_id",
+    "subscription_id",
+    "deployment_id",
+    "timestamp_vm_created",
+    "timestamp_vm_deleted",
+    "max_cpu",
+    "avg_cpu",
+    "p95_max_cpu",
+    "vm_category",
+    "virtual_core_bucket",
+    "memory_gb_bucket"
+  ]
+}
