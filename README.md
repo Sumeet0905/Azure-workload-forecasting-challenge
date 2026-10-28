@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Azure Cloud Workload Forecasting — Atomity Take-Home
 
 A reproducible forecasting and analysis pipeline for the Atomity Cloud Workload Forecasting & Analysis challenge, using the fixed `data-v1` release of Microsoft Azure Public Dataset V2.
@@ -90,6 +89,3 @@ The bundled suite currently passes six tests. Tests cover target aggregation, fo
 The curated release has 1,340,000 VM-level observations across 10,000 VMs and 134 timestamps. In the supplied trace, every VM appears at every timestamp, so `active_vm_count` is constant and persistence forecasts it exactly. The trace spans only about 11.1 hours, which is too short to learn daily or weekly seasonality reliably. Aggregate mean CPU is not a capacity-weighted demand estimate and hides VM-level peaks; operational use should combine this signal with service-level saturation, capacity-weighted utilization, and a monitored safety margin.
 
 See `reports/final_report.md` for detailed findings, validation results, recommendations, and caveats.
-=======
-# Azure-workload-forecasting-challenge
->>>>>>> 2e034d875bc35dc725643fbaed79d876f1482b48
